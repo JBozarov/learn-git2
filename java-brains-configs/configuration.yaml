@@ -1,0 +1,11 @@
+my:
+  greeting: Hello I am a config server
+  list:
+    values: One, Two, Three, Four
+  db:
+    mapValues: "{connectionUrl:'http://skdfsl/sdkf', userName: 'foo', pasword: 'pass'}"
+
+db:
+  connection: "connection from config server"
+  host: 127.0.0.1
+  port: 1200
